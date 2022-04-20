@@ -1,4 +1,37 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #C2C5AA;
+    background-color: #DFF3E4;
 }
+
+/*header & nav*/
+header {
+    background-color: #0D451B;
+    padding: 5px 1px;
+    overflow: hidden;
+  }
+  
+header a {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px; 
+    float: left;
+    padding: 5px;
+    border-radius: 2px;
+  }
+
+  /*nav style to right*/
+  .nav-right {
+      float: right;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+ }
+
+  li {
+      display: inline;
+  }
+  
