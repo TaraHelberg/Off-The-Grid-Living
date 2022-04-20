@@ -1,4 +1,13 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&family=Permanent+Marker&display=swap')
+
+
+  body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #DFF3E4;
 }
@@ -8,30 +17,33 @@ header {
     background-color: #0D451B;
     padding: 5px 1px;
     overflow: hidden;
-  }
-  
+}
+
 header a {
     color: whitesmoke;
     text-align: center;
     text-decoration: none;
-    font-size: 15px; 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
     float: left;
     padding: 5px;
     border-radius: 2px;
-  }
+}
 
-  /*nav style to right*/
-  .nav-right {
-      float: right;
-  }
+/*nav style to right*/
+.nav-right {
+    float: right;
+}
 
-  ul {
+.nav-right ul {
     list-style-type: none;
     margin: 0;
-    padding: 30px;
- }
+    padding: 15px;
+}
 
-  li {
-      display: inline;
-  }
-  
+.nav-right li {
+    display: inline;
+    justify-tracks: space-between;
+}
